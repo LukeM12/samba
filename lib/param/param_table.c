@@ -4237,6 +4237,15 @@ static struct parm_struct parm_table[] = {
 		.flags		= FLAG_ADVANCED,
 	},
 	{
+		.label		= "gpo update command",
+		.type		= P_CMDLIST,
+		.p_class	= P_GLOBAL,
+		.offset		= GLOBAL_VAR(szGPOUpdateCommand),
+		.special	= NULL,
+		.enum_list	= NULL,
+		.flags		= FLAG_ADVANCED,
+	},
+	{
 		.label		= "dns update command",
 		.type		= P_CMDLIST,
 		.p_class	= P_GLOBAL,
